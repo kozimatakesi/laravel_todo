@@ -30,6 +30,7 @@ class FolderListTest extends TestCase
 
     $response
           ->assertStatus(200)
+          // assetSee見える
           ->assertSee($folder_first->title);
   }
 }
