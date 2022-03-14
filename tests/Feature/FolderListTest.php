@@ -19,7 +19,7 @@ class FolderListTest extends TestCase
     // フォルダーを5つ生成
     factory(Folder::class, 5)->create();
 
-    // 一番初めに生成されたフォルダーのインスタンスを取得
+    // 一番初めに生成されたフォルダーのインスタンスを取得する
     $folder_first = Folder::first();
 
     // 一番初めに生成されたフォルダーのidを取得
