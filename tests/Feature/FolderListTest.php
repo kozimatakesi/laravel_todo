@@ -26,7 +26,7 @@ class FolderListTest extends TestCase
     $id = $folder_first->id;
 
     // フォルダ一覧表示のパスにアクセス、TaskControllerのindexメソッド
-    $response = $this->get("/folders/$[$id]/tasks");
+    $response = $this->get('/folders/'.$id.'/tasks');
 
     $response
           ->assertStatus(200)
