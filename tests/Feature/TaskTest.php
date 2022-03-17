@@ -36,6 +36,7 @@ class TaskTest extends TestCase
 
   /**
    * @test
+   * だよ
    */
   public function due_date_should_not_be_past()
   {
