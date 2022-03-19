@@ -61,7 +61,7 @@ class TaskTest extends TestCase
       $response = $this->post('/folders/1/tasks/1/edit', [
           'title' => 'Sample task',
           'due_date' => Carbon::today()->format('Y/m/d'),
-          'status' => 999,
+          'status' => 9999,
       ]);
 
       $response->assertSessionHasErrors([
