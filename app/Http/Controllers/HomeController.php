@@ -8,6 +8,7 @@ class HomeController extends Controller
 {
     public function index()
     {
+      phpinfo();
       return view('home');
     }
 }
